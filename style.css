@@ -1,8 +1,17 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --body-background-color: rgb(222, 219, 219);
+    --primary-color: #034078;
+    --heading-text-color: rgb(244, 244, 244);
+    --main-text-color: black;
+}
+body {
+    background-color: var(--body-background-color);
+}
 h1{
-    background-color: rgb(15, 15, 92);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     padding: 1rem;
 }
