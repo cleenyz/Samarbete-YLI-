@@ -12,6 +12,6 @@ body {
 }
 h1{
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--heading-text-color);
     padding: 1rem;
 }
