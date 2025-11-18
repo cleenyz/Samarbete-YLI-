@@ -52,7 +52,7 @@ footer{
     display: flex;
     padding: 1rem;
     align-items: end;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
     align-items: center;
