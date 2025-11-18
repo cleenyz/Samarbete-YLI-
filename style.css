@@ -8,6 +8,7 @@
     --main-text-color: black;
     --font-family: "sirin";
     --hover-color: #006cd2;
+    --main-width: 70rem;
 }
 body {
     background-color: var(--body-background-color);
@@ -56,4 +57,31 @@ footer{
     background-color: var(--primary-color);
     color: white;
     align-items: center;
+}
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    background-color: white;
+    display: flex;
+}
+.nyheter h2 {
+    font-size: 3rem;
+    text-align: left;
+}
+.nyheter {
+    display: flex;
+    flex-direction: column;
+}
+.nyheter img {
+    display: block;
+    flex-shrink: 0;
+    width: 50rem;
+    height: 30rem;
+    object-fit: cover;
+    align-self: center;
+    padding: 1rem;
+}   
+.nyheter p, h2 {
+    padding: 1rem;
+    align-self: center;
 }
